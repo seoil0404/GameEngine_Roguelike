@@ -1,0 +1,3077 @@
+fileFormatVersion: 2
+guid: 94307a2a96f9e984fa3960573af3e378
+AssetOrigin:
+  serializedVersion: 1
+  productId: 235887
+  packageName: 2D Pixel Underground Tile 2
+  packageVersion: 1.0
+  assetPath: Assets/Underground_Tile2/Underground_tile2.png
+  uploadId: 535857
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Underground_tile2_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 140
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 10, y: 10}
+        - {x: -8, y: 10}
+        - {x: -8, y: -6}
+        - {x: -4, y: -10}
+        - {x: 10, y: -10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a1306bef0b32cf44b0d3b7d3d3e5ab1
+      internalID: -1934554512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Underground_tile2_1
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 140
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 8, y: -2}
+        - {x: 8, y: 10}
+        - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 5, y: -10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd1fddaf0c4bbf042ad24c28a99f7c38
+      internalID: -1781952447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Underground_tile2_2
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 140
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 10, y: 10}
+        - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b425d0145a5745499d4b7b1aae1f35a
+      internalID: -97095687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Underground_tile2_3
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 140
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 10, y: 10}
+        - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: cecea5f74786c174a916de698a1b60e5
+      internalID: -512202910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Underground_tile2_4
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 140
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 10, y: 10}
+        - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3014997b8c9ad664f84437e4fc718b81
+      internalID: -684155533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Underground_tile2_5
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 140
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 10, y: 10}
+        - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d4f7227bc96fab4faa67bc7b6cdc8aa
+      internalID: 449389910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Underground_tile2_6
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 140
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 10, y: 10}
+        - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd174280ba2851e40b58278f6a3a44d5
+      internalID: -738987614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Underground_tile2_7
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 140
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 10, y: 10}
+        - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4599db61d4f63b9449357e7a56ad3625
+      internalID: -214008312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Underground_tile2_8
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 140
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 10, y: 10}
+        - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cc71eff398cbec41b9cfc15f0346435
+      internalID: 587651577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Underground_tile2_9
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 140
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 10, y: 10}
+        - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c82260e64f02294f8f9758adf74e0ca
+      internalID: 1924362233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Underground_tile2_10
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 140
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 10, y: 10}
+        - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b670502c989d7a847874fe726b1fadc3
+      internalID: -354784349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Underground_tile2_11
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 140
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 10, y: 10}
+        - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: d738e148925eead42a7f75c6343db3e3
+      internalID: -1119643863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Underground_tile2_12
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 140
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 10, y: 10}
+        - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd93a6348a0866d4b884d06e7ece7ebc
+      internalID: -1930895293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Underground_tile2_13
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 140
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 10, y: 10}
+        - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a0f68b16f5b98047bfff3698a25cc13
+      internalID: 800552373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Underground_tile2_14
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 140
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 10, y: 10}
+        - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61caf27f2b2ab834490a1504927f40bf
+      internalID: -433632479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Underground_tile2_15
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 140
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 10, y: 10}
+        - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44ead50bda4ac4c4e8bfdcb453d57094
+      internalID: 1735133242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Underground_tile2_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 120
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 10, y: 10}
+        - {x: -2, y: 10}
+        - {x: -2, y: -10}
+        - {x: 10, y: -10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccf6f9141c618dc44a2dde5824cd4343
+      internalID: -418065157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Underground_tile2_17
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 120
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 2, y: 10}
+        - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 2, y: -10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c0786a2a75ebe646aec794b2290e5a2
+      internalID: 1317315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Underground_tile2_18
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 120
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 10, y: 10}
+        - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0462054b7fa44a949816b9aacd74e66f
+      internalID: 2032173702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Underground_tile2_19
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 120
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 10, y: 10}
+        - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b14acfc0ec1b825408f3b47e0f8e82f2
+      internalID: -974953655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Underground_tile2_20
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 120
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 10, y: 10}
+        - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2db2dd908d14990429f1e94714089ffe
+      internalID: -546410951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Underground_tile2_21
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 120
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 10, y: 10}
+        - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 757b98fb289fef44f890b4cf04a61409
+      internalID: -1694713646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Underground_tile2_22
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 120
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 10, y: 10}
+        - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9e991a14cb6fda48a4f6d479843b59f
+      internalID: -597044297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Underground_tile2_23
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 120
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 10, y: 10}
+        - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b959dbf9b3e6364cb31babc6a257aac
+      internalID: -1536601079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Underground_tile2_24
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 120
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 10, y: 10}
+        - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 147fe0bc8362e3a44b3615d2548b780e
+      internalID: 1129323076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Underground_tile2_25
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 120
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 10, y: 10}
+        - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9215e70c1ece49419f0c4afc2de44cc
+      internalID: 554014337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Underground_tile2_26
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 120
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 10, y: 10}
+        - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2465492ad8b610046bbfa477cc7c4824
+      internalID: 1568367221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Underground_tile2_27
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 120
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 10, y: 10}
+        - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40ceb2f969e946446a21ec4631e60197
+      internalID: -1886286593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Underground_tile2_28
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 120
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 10, y: 10}
+        - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 696b4066bdf5ce540beeb548462d1682
+      internalID: -840750567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Underground_tile2_29
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 120
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 10, y: 10}
+        - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b2f55212569c0444944b62a2727ac62
+      internalID: 1139747043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Underground_tile2_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 100
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 10, y: 10}
+        - {x: -2, y: 10}
+        - {x: -2, y: -10}
+        - {x: 10, y: -10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38f004bf6e3a6674aabeacef1ac0b235
+      internalID: -1674054246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Underground_tile2_31
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 100
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 2, y: 10}
+        - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 2, y: -10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc98b12aa17c67447b5aa1c8b7ceb026
+      internalID: -941902050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Underground_tile2_32
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 100
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 10, y: 10}
+        - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8284a3f66ce39a745bf47602a2fdc73d
+      internalID: -156067507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Underground_tile2_33
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 100
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 10, y: 10}
+        - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: e30ed2b79b78cff458c06819da8802b5
+      internalID: -1254452301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Underground_tile2_34
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 100
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 10, y: 10}
+        - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6887627c4c8ec7348a2dde14d5b5104a
+      internalID: 679844479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Underground_tile2_35
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 100
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 10, y: 10}
+        - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: eff9002cdef0c9a4fbbb12d291b559f6
+      internalID: 1219853545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Underground_tile2_36
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 100
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 10, y: 10}
+        - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4df7615652317e4893c7eb98dc2a99a
+      internalID: 270841709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Underground_tile2_37
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 100
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 10, y: 10}
+        - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac718b80f26098b49ba8ef3a18b77511
+      internalID: 260726385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Underground_tile2_38
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 100
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 10, y: 10}
+        - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5f295310ad4be2489eee2e11f435d88
+      internalID: 1191893214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Underground_tile2_39
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 100
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 10, y: 10}
+        - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5555ce4b0b663da43b9419e183f9ac12
+      internalID: -2132626818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Underground_tile2_40
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 100
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 10, y: 10}
+        - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b63aa9e3f9c1a18478a345c476e48f0e
+      internalID: -331915732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Underground_tile2_41
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 100
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 10, y: 10}
+        - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4157fa8f1096a384c91625528c2f3912
+      internalID: 1671302129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Underground_tile2_42
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 100
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 10, y: 10}
+        - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62aa4d1bb437ba14f986c41598fa1935
+      internalID: -2096239889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Underground_tile2_43
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 100
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 10, y: 10}
+        - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: d148071c7e886914b80c6e5a0e1740db
+      internalID: 146744265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Underground_tile2_44
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 100
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 10, y: 10}
+        - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37b427a179486be41bd53fa8a4c28c8b
+      internalID: -118958473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Underground_tile2_45
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 100
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 10, y: 10}
+        - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ae7ca0ba2ff96045a7eed51fdf70644
+      internalID: -384558516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Underground_tile2_46
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 80
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 10, y: 10}
+        - {x: -2, y: 10}
+        - {x: -2, y: -10}
+        - {x: 10, y: -10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee757baf5a506ef45a201398898f534f
+      internalID: -2089059054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Underground_tile2_47
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 80
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 2, y: 10}
+        - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 2, y: -10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: d156af108a8fe574f82232782a3497e4
+      internalID: 2082436168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Underground_tile2_48
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 80
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 10, y: 10}
+        - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b57a818da57712a418e6aa2a66933071
+      internalID: -1415606298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Underground_tile2_49
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 80
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 10, y: 10}
+        - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: ece039af1535fc54992eb34950dbcb5c
+      internalID: 1315814271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Underground_tile2_50
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 80
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 10, y: 10}
+        - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 799124490016cde46b0a95bb42d4f1cd
+      internalID: 625808353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Underground_tile2_51
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 80
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 10, y: 10}
+        - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b800aa2687a5984a861d18815acd3ec
+      internalID: 683915789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Underground_tile2_52
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 80
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 10, y: 10}
+        - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e8afbd98b7e1c54fa6bede2de2d6e54
+      internalID: 1020930716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Underground_tile2_53
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 80
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 10, y: 10}
+        - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45a83f50067f57340abe918d8eb61346
+      internalID: 906313484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Underground_tile2_54
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 80
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 10, y: 10}
+        - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7699de0afe19724fac972f53ba08082
+      internalID: 1496573038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Underground_tile2_55
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 80
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 10, y: 10}
+        - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5b70d3927ab3e04bb4d9ec5de00e942
+      internalID: 1714351079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Underground_tile2_56
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 80
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 10, y: 10}
+        - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c1dd01d952c1474ea657cf9f92b53a5
+      internalID: 1020020584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Underground_tile2_57
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 80
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 10, y: 10}
+        - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87788618d9e5d9241a3a0725b41638a9
+      internalID: -70557653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Underground_tile2_58
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 80
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 10, y: 10}
+        - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c6524f5f4d25664584abcdddde862e2
+      internalID: -1608402672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Underground_tile2_59
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 80
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 10, y: 10}
+        - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b03356dc70de065499526766d3112138
+      internalID: 218295424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Underground_tile2_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 60
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 10, y: 10}
+        - {x: -2, y: 10}
+        - {x: -2, y: -10}
+        - {x: 10, y: -10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80f9a647e0e98fa438a3becd64967beb
+      internalID: -530120689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Underground_tile2_61
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 60
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 2, y: 10}
+        - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 2, y: -10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c2418e5f9bce9e4d875d3195517ea34
+      internalID: 1809346223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Underground_tile2_62
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 60
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 10, y: 10}
+        - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3a2bd9ab694950449ec1f8e1f540c57
+      internalID: 1899050408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Underground_tile2_63
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 60
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 10, y: 10}
+        - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95520a3029d913642a3cdb8bf24c6e12
+      internalID: 1299924826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Underground_tile2_64
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 60
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 10, y: 10}
+        - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17c034753708f93458e0c8b35abb14eb
+      internalID: 2009095410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Underground_tile2_65
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 60
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 10, y: 10}
+        - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52ff25c5cddad77458d09c6740e83299
+      internalID: -2129417496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Underground_tile2_66
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 60
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 10, y: 10}
+        - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e9428eb49f10004aaef1fc6379b0fbd
+      internalID: 1474486589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Underground_tile2_67
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 60
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 10, y: 10}
+        - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75812c955b5a3fb4cbfd1449963d52fc
+      internalID: -1387334821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Underground_tile2_68
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 60
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 10, y: 10}
+        - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: c27f3d9f7192a194ab57ab76d81eb22f
+      internalID: 1095499804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Underground_tile2_69
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 60
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 10, y: 10}
+        - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fd3bf896653f8f4b8556f75a884881a
+      internalID: 601696246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Underground_tile2_70
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 60
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 10, y: 10}
+        - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 335cd9e452a3caa42a971653e48c7910
+      internalID: 1676301382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Underground_tile2_71
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 60
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 10, y: 10}
+        - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41457bed293a03b49b20001d822da17f
+      internalID: -1917580205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Underground_tile2_72
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 60
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 10, y: 10}
+        - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52de67db9a6864347b24bcd8f83b8b60
+      internalID: -508949220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Underground_tile2_73
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 60
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 10, y: 10}
+        - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0c3cdca9a2f2a2449a73aafe0f0fe36
+      internalID: -803689233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Underground_tile2_74
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 60
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 10, y: 10}
+        - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0bf4effedb8b284aabbc6dcb7a6693e
+      internalID: -1174013520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Underground_tile2_75
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 60
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 10, y: 10}
+        - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06b0d17d54c218c4ba2ba313f0e86fe4
+      internalID: -1636848435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Underground_tile2_76
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 40
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 10, y: 10}
+        - {x: -5, y: 10}
+        - {x: -8, y: 2}
+        - {x: -8, y: -10}
+        - {x: 10, y: -10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bd3d9e6c98b13b4d95a73ad116c3e86
+      internalID: -943166047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Underground_tile2_77
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 40
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 8, y: 6}
+        - {x: 4, y: 10}
+        - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 8, y: -10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: d68b6dbf58ce27f4da601f992d1a1429
+      internalID: -1111062609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Underground_tile2_78
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 40
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 10, y: 10}
+        - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: db7775562842b374fa0332e25a3b8649
+      internalID: -1147905131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Underground_tile2_79
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 40
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 10, y: 10}
+        - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: bac089678076d5c44a0153893cc546eb
+      internalID: 227867408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Underground_tile2_80
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 40
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 10, y: 10}
+        - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee6b3b01b7583b94cb74d18371ebaced
+      internalID: 719030950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Underground_tile2_81
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 40
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 10, y: 10}
+        - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: fff054d520da70b4da9957e66d4e3a37
+      internalID: 1665312390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Underground_tile2_82
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 40
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 10, y: 10}
+        - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44d463bf1ad36614ba83dd1e7cb2064c
+      internalID: -1388904587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Underground_tile2_83
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 20
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 10, y: 0}
+        - {x: 1, y: 0}
+        - {x: -10, y: -7}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bc64e9d5c5cf7f449192b2be08ee6d6
+      internalID: -412758649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Underground_tile2_84
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 20
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 8, y: -6}
+        - {x: -5, y: 1}
+        - {x: -10, y: -1}
+        - {x: -10, y: -10}
+        - {x: 7, y: -10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: d892676c3d8e70e45b9a8d7a9fc57f63
+      internalID: -1069477214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Underground_tile2_85
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 20
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 5, y: 10}
+        - {x: -4, y: 10}
+        - {x: -4, y: -10}
+        - {x: 5, y: -10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67126e31e4020844aa239b4d845e7838
+      internalID: -1672779302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Underground_tile2_86
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 20
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 10, y: 6}
+        - {x: 4, y: 9}
+        - {x: 0, y: 9}
+        - {x: 0, y: -10}
+        - {x: 10, y: -10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 069796b61663a9443b18699d44f40454
+      internalID: -1810602014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Underground_tile2_87
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 20
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 7, y: -9}
+        - {x: 8, y: -5}
+        - {x: 8, y: 8}
+        - {x: -10, y: 8}
+        - {x: -10, y: -10}
+        - {x: 5, y: -10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 075f1af96fb843e47b63c5de20fe4de4
+      internalID: 585680999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Underground_tile2_88
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 20
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 10, y: 10}
+        - {x: 4, y: 10}
+        - {x: 4, y: -7}
+        - {x: 5, y: -10}
+        - {x: 10, y: -10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87d7098b1c3c8f34799d99435208cb64
+      internalID: -57573169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Underground_tile2_89
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 20
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 10, y: 7}
+        - {x: -10, y: 7}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: e594c4f8a52af8247998465905622ed1
+      internalID: -601752337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Underground_tile2_90
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 20
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: -3, y: 9}
+        - {x: -3, y: 10}
+        - {x: -8, y: 10}
+        - {x: -10, y: 8}
+        - {x: -10, y: 3}
+        - {x: -9, y: 3}
+      - - {x: -7, y: -7}
+        - {x: -9, y: -5}
+        - {x: -10, y: -5}
+        - {x: -10, y: -10}
+        - {x: -7, y: -10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 616f6906ecd5fa841976b4eb6fbb52bd
+      internalID: -653166981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Underground_tile2_91
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 20
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 10, y: -4}
+        - {x: 7, y: -1}
+        - {x: -6, y: -1}
+        - {x: -9, y: -4}
+        - {x: -9, y: -10}
+        - {x: 10, y: -10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bc0fd264b3b9794e843e9eabee6d7a0
+      internalID: -1297281565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Underground_tile2_92
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 10, y: -1}
+        - {x: 5, y: 2}
+        - {x: -3, y: 2}
+        - {x: -10, y: -1}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69ead471ece093f49a1ab928f8cc45b8
+      internalID: 1551879018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Underground_tile2_93
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 0
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 10, y: -3}
+        - {x: 9, y: -1}
+        - {x: -10, y: -1}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58ed9b0d365fd374f8d316612df0d1d5
+      internalID: 718385635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Underground_tile2_94
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 0
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 10, y: -5}
+        - {x: 2, y: -1}
+        - {x: -2, y: -1}
+        - {x: -10, y: -3}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90d1d2251f96f6f4dbfba1343872ecd2
+      internalID: -829008394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Underground_tile2_95
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 0
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: -6, y: -8}
+        - {x: -8, y: -6}
+        - {x: -10, y: -7}
+        - {x: -10, y: -10}
+        - {x: -6, y: -10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98d67f47be5b85644acff55c6c407664
+      internalID: -400667396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Underground_tile2_96
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 0
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 10, y: 1}
+        - {x: 10, y: 8}
+        - {x: 8, y: 10}
+        - {x: 1, y: 10}
+        - {x: -2, y: 4}
+        - {x: -2, y: 0}
+        - {x: -1, y: -1}
+        - {x: 4, y: -1}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d179c2185d760247abd5ad301ccbc63
+      internalID: -1375239516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Underground_tile2_97
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 0
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 7, y: 4}
+        - {x: 5, y: 10}
+        - {x: -10, y: 10}
+        - {x: -10, y: 0}
+        - {x: -3, y: -2}
+        - {x: 7, y: -2}
+      tessellationDetail: 0
+      bones: []
+      spriteID: f778586d832a3144bb3eeb0ecf5509c8
+      internalID: -1504053736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Underground_tile2_98
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 0
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 10, y: 10}
+        - {x: -4, y: 10}
+        - {x: -9, y: 8}
+        - {x: -9, y: 7}
+        - {x: -8, y: 4}
+        - {x: 4, y: 1}
+        - {x: 10, y: 1}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 044795bef63266c488a439eccce091ca
+      internalID: -1520251613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Underground_tile2_99
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 0
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 10, y: 0}
+        - {x: 10, y: 10}
+        - {x: -10, y: 10}
+        - {x: -10, y: -6}
+        - {x: -9, y: -10}
+        - {x: 1, y: -10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f23a1d38c7e3a74d99b86225862c5b8
+      internalID: -626687309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Underground_tile2_100
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 3, y: 3}
+        - {x: -3, y: 10}
+        - {x: -10, y: 10}
+        - {x: -10, y: 2}
+        - {x: -1, y: -2}
+        - {x: 3, y: -2}
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5d3d959208aa6a4e827aeb795f64890
+      internalID: -1652184860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Underground_tile2_101
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 0
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 10, y: 2}
+        - {x: 8, y: 9}
+        - {x: -7, y: 9}
+        - {x: -9, y: 3}
+        - {x: -9, y: -10}
+        - {x: 10, y: -10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: d26d0a0e480a8ed41970d408889c22bc
+      internalID: 542772240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Underground_tile2_102
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 0
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 9, y: -8}
+        - {x: 9, y: 5}
+        - {x: 7, y: 6}
+        - {x: -7, y: 6}
+        - {x: -7, y: -6}
+        - {x: -6, y: -10}
+        - {x: 8, y: -10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4a56aee3fed09942b5d3cab379176c2
+      internalID: -329047772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Underground_tile2_103
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 0
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 10, y: -5}
+        - {x: 10, y: 9}
+        - {x: -9, y: 9}
+        - {x: -9, y: -3}
+        - {x: -6, y: -10}
+        - {x: 8, y: -10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c7efb02e1a0fcf4bb78d42c2ac4b84a
+      internalID: -658235610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Underground_tile2_104
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 0
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 10, y: 0}
+        - {x: 10, y: 10}
+        - {x: -9, y: 10}
+        - {x: -9, y: -4}
+        - {x: -7, y: -10}
+        - {x: 8, y: -10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ad6da7987e32dc4ca3b2b6430cd1234
+      internalID: 1019160208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Underground_tile2_105
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 0
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 10, y: 6}
+        - {x: 6, y: 7}
+        - {x: -8, y: 7}
+        - {x: -10, y: 3}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69d30d220c066cc46b14d60f1c17589f
+      internalID: 1332744561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Underground_tile2_106
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 0
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 10, y: 6}
+        - {x: 6, y: 7}
+        - {x: -8, y: 7}
+        - {x: -10, y: 3}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: f324d0389b3bde0499f5eabd5a714a51
+      internalID: 895624826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Underground_tile2_0: -1934554512
+      Underground_tile2_1: -1781952447
+      Underground_tile2_10: -354784349
+      Underground_tile2_100: -1652184860
+      Underground_tile2_101: 542772240
+      Underground_tile2_102: -329047772
+      Underground_tile2_103: -658235610
+      Underground_tile2_104: 1019160208
+      Underground_tile2_105: 1332744561
+      Underground_tile2_106: 895624826
+      Underground_tile2_11: -1119643863
+      Underground_tile2_12: -1930895293
+      Underground_tile2_13: 800552373
+      Underground_tile2_14: -433632479
+      Underground_tile2_15: 1735133242
+      Underground_tile2_16: -418065157
+      Underground_tile2_17: 1317315
+      Underground_tile2_18: 2032173702
+      Underground_tile2_19: -974953655
+      Underground_tile2_2: -97095687
+      Underground_tile2_20: -546410951
+      Underground_tile2_21: -1694713646
+      Underground_tile2_22: -597044297
+      Underground_tile2_23: -1536601079
+      Underground_tile2_24: 1129323076
+      Underground_tile2_25: 554014337
+      Underground_tile2_26: 1568367221
+      Underground_tile2_27: -1886286593
+      Underground_tile2_28: -840750567
+      Underground_tile2_29: 1139747043
+      Underground_tile2_3: -512202910
+      Underground_tile2_30: -1674054246
+      Underground_tile2_31: -941902050
+      Underground_tile2_32: -156067507
+      Underground_tile2_33: -1254452301
+      Underground_tile2_34: 679844479
+      Underground_tile2_35: 1219853545
+      Underground_tile2_36: 270841709
+      Underground_tile2_37: 260726385
+      Underground_tile2_38: 1191893214
+      Underground_tile2_39: -2132626818
+      Underground_tile2_4: -684155533
+      Underground_tile2_40: -331915732
+      Underground_tile2_41: 1671302129
+      Underground_tile2_42: -2096239889
+      Underground_tile2_43: 146744265
+      Underground_tile2_44: -118958473
+      Underground_tile2_45: -384558516
+      Underground_tile2_46: -2089059054
+      Underground_tile2_47: 2082436168
+      Underground_tile2_48: -1415606298
+      Underground_tile2_49: 1315814271
+      Underground_tile2_5: 449389910
+      Underground_tile2_50: 625808353
+      Underground_tile2_51: 683915789
+      Underground_tile2_52: 1020930716
+      Underground_tile2_53: 906313484
+      Underground_tile2_54: 1496573038
+      Underground_tile2_55: 1714351079
+      Underground_tile2_56: 1020020584
+      Underground_tile2_57: -70557653
+      Underground_tile2_58: -1608402672
+      Underground_tile2_59: 218295424
+      Underground_tile2_6: -738987614
+      Underground_tile2_60: -530120689
+      Underground_tile2_61: 1809346223
+      Underground_tile2_62: 1899050408
+      Underground_tile2_63: 1299924826
+      Underground_tile2_64: 2009095410
+      Underground_tile2_65: -2129417496
+      Underground_tile2_66: 1474486589
+      Underground_tile2_67: -1387334821
+      Underground_tile2_68: 1095499804
+      Underground_tile2_69: 601696246
+      Underground_tile2_7: -214008312
+      Underground_tile2_70: 1676301382
+      Underground_tile2_71: -1917580205
+      Underground_tile2_72: -508949220
+      Underground_tile2_73: -803689233
+      Underground_tile2_74: -1174013520
+      Underground_tile2_75: -1636848435
+      Underground_tile2_76: -943166047
+      Underground_tile2_77: -1111062609
+      Underground_tile2_78: -1147905131
+      Underground_tile2_79: 227867408
+      Underground_tile2_8: 587651577
+      Underground_tile2_80: 719030950
+      Underground_tile2_81: 1665312390
+      Underground_tile2_82: -1388904587
+      Underground_tile2_83: -412758649
+      Underground_tile2_84: -1069477214
+      Underground_tile2_85: -1672779302
+      Underground_tile2_86: -1810602014
+      Underground_tile2_87: 585680999
+      Underground_tile2_88: -57573169
+      Underground_tile2_89: -601752337
+      Underground_tile2_9: 1924362233
+      Underground_tile2_90: -653166981
+      Underground_tile2_91: -1297281565
+      Underground_tile2_92: 1551879018
+      Underground_tile2_93: 718385635
+      Underground_tile2_94: -829008394
+      Underground_tile2_95: -400667396
+      Underground_tile2_96: -1375239516
+      Underground_tile2_97: -1504053736
+      Underground_tile2_98: -1520251613
+      Underground_tile2_99: -626687309
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
