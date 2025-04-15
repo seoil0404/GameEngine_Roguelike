@@ -8,9 +8,34 @@ public abstract class EnemyController : MonoBehaviour
     [SerializeField] protected float attackAfterDelay;
     [SerializeField] private float maxDetectDistance;
 
+    [Header("Enemy Health Setting")]
+    [SerializeField] private int enemyHealth;
+
+    [Header("Effect")]
+    [SerializeField] private ParticleSystem deadEffect;
+    [SerializeField] private Transform effectInstanceTransform;
+
+    public Vector2 Position => effectInstanceTransform.position;
+
     private Coroutine delayAttack = null;
 
     private bool isAttacked = false;
+    private bool isAttackDelaying = false;
+
+    public void DecreaseHealth()
+    {
+        enemyHealth--;
+        if(enemyHealth == 0)
+        {
+            OnDeath();
+        }
+    }
+
+    private void OnDeath()
+    {
+        Instantiate(deadEffect).transform.position = effectInstanceTransform.transform.position;
+        Destroy(gameObject);
+    }
 
     private void Update()
     {
@@ -23,12 +48,10 @@ public abstract class EnemyController : MonoBehaviour
     {
         RaycastHit2D rayCastInfo = Physics2D.Raycast (
             transform.position, 
-            (PlayerMoveController.Position - transform.position + new Vector3(0, 0.5f, 0)).normalized, 
+            (PlayerMoveController.Position - transform.position + new Vector3(0, 0.6f, 0)).normalized, 
             Mathf.Min(Vector2.Distance(transform.position, PlayerMoveController.Position), maxDetectDistance), 
             LayerInfo.Platform
         );
-
-        if (rayCastInfo.collider != null) Debug.Log(rayCastInfo.collider.gameObject.name);
 
         if (rayCastInfo.collider == null && Vector2.Distance(transform.position, PlayerMoveController.Position) <= maxDetectDistance)
             OnDetected();
@@ -60,20 +83,25 @@ public abstract class EnemyController : MonoBehaviour
 
         yield return new WaitForSeconds(attackDelay);
 
+        delayAttack = null;
         OnAttack(PlayerMoveController.Position);
         StartCoroutine(DelayAfterAttack());
     }
 
     private IEnumerator DelayAfterAttack()
     {
+        isAttackDelaying = true;
+
         yield return new WaitForSeconds(attackAfterDelay);
+
+        isAttackDelaying = false;
         isAttacked = false;
     }
 
     private void OnLostDetected()
     {
-        if (delayAttack == null) return;
-        
+        if (delayAttack == null || isAttackDelaying) return;
+
         StopCoroutine(delayAttack);
         isAttacked = false;
         delayAttack = null;

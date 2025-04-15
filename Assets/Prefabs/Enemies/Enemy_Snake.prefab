@@ -9,8 +9,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 620613620737916483}
-  - component: {fileID: 2422435521002898504}
   - component: {fileID: 9096796453300425103}
+  - component: {fileID: 2422435521002898504}
   - component: {fileID: 4110960705035918167}
   - component: {fileID: 8174811683732875618}
   - component: {fileID: 4847879858038723031}
@@ -33,9 +33,33 @@ Transform:
   m_LocalPosition: {x: -0.51, y: -0.03, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 6965084522451144566}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &9096796453300425103
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 489834493782865299}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c7c3b546d36fa6498d13aaba6aef05c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attackDelay: 1
+  attackAfterDelay: 2
+  maxDetectDistance: 3.5
+  enemyHealth: 3
+  deadEffect: {fileID: 9187866360158592852, guid: 3dcc4f26fe360b54c84ad3de41775e21, type: 3}
+  effectInstanceTransform: {fileID: 6965084522451144566}
+  rigid: {fileID: 8174811683732875618}
+  spriteRenderer: {fileID: 2422435521002898504}
+  animator: {fileID: 4847879858038723031}
+  moveSpeed: 1
+  firstMoveRate: 1
 --- !u!212 &2422435521002898504
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -91,26 +115,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &9096796453300425103
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 489834493782865299}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8c7c3b546d36fa6498d13aaba6aef05c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  attackDelay: 1
-  attackAfterDelay: 2
-  maxDetectDistance: 2
-  rigid: {fileID: 8174811683732875618}
-  spriteRenderer: {fileID: 2422435521002898504}
-  animator: {fileID: 4847879858038723031}
-  moveSpeed: 1
-  firstMoveRate: 1
 --- !u!61 &4110960705035918167
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -206,3 +210,34 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!1 &2280727473812125587
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6965084522451144566}
+  m_Layer: 0
+  m_Name: Death Effect Position
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6965084522451144566
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2280727473812125587}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 620613620737916483}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

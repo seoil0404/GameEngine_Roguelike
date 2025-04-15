@@ -2,15 +2,11 @@ using UnityEngine;
 
 public class MapManager : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
+    [Header("Points")]
+    [SerializeField] private Transform startPoint;
 
-    // Update is called once per frame
-    void Update()
+    private void Start()
     {
-        
+        DonDestroy_Player.Instance.transform.position = startPoint.position;
     }
 }
