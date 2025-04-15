@@ -8,6 +8,9 @@ public class Snake_EnemyController : EnemyController
     [SerializeField] private SpriteRenderer spriteRenderer;
     [SerializeField] private Animator animator;
 
+    [Header("Particles")]
+    [SerializeField] private ParticleSystem explosionEffectPrefab;
+
     [Header("Move Setting")]
     [SerializeField] private float moveSpeed;
     [SerializeField] private int firstMoveRate;
@@ -140,6 +143,8 @@ public class Snake_EnemyController : EnemyController
 
     private void Destroy()
     {
+        Instantiate(explosionEffectPrefab).transform.position = Position;
+
         Destroy(gameObject);
     }
 }

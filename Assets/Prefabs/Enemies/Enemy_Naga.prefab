@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5432107410168323402}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Death Effect Position
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -45,7 +45,7 @@ GameObject:
   - component: {fileID: 3034739666761735990}
   - component: {fileID: 8390038792321454452}
   - component: {fileID: 772261733909202683}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Enemy_Naga
   m_TagString: Untagged
   m_Icon: {fileID: 0}

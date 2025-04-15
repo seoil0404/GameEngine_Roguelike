@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 4110960705035918167}
   - component: {fileID: 8174811683732875618}
   - component: {fileID: 4847879858038723031}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Enemy_Snake
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -58,6 +58,7 @@ MonoBehaviour:
   rigid: {fileID: 8174811683732875618}
   spriteRenderer: {fileID: 2422435521002898504}
   animator: {fileID: 4847879858038723031}
+  explosionEffectPrefab: {fileID: 3405748047973254396, guid: d6e906446b9dc644290aace0c613989f, type: 3}
   moveSpeed: 1
   firstMoveRate: 1
 --- !u!212 &2422435521002898504
@@ -219,7 +220,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6965084522451144566}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Death Effect Position
   m_TagString: Untagged
   m_Icon: {fileID: 0}

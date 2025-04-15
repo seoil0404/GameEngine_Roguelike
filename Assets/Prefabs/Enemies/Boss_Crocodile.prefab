@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5265901886084036751}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Death Effect Position
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -45,7 +45,7 @@ GameObject:
   - component: {fileID: 6439131779341757649}
   - component: {fileID: 7713185827856382640}
   - component: {fileID: 4254054034539688505}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Boss_Crocodile
   m_TagString: Untagged
   m_Icon: {fileID: 0}

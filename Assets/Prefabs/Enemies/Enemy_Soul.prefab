@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 1425443616378428765}
   - component: {fileID: 7214287372802321123}
   - component: {fileID: 7145461152308069558}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Enemy_Soul
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -188,7 +188,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1833237782403318657}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Death Effect Position
   m_TagString: Untagged
   m_Icon: {fileID: 0}
