@@ -1,6 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
+using DG.Tweening;
 using UnityEngine;
+using UnityEngine.Rendering;
+using UnityEngine.Rendering.Universal;
 using UnityEngine.UI;
 
 public class PlayerMoveController : MonoBehaviour
@@ -15,12 +18,19 @@ public class PlayerMoveController : MonoBehaviour
     [SerializeField] private Rigidbody2D rigid;
     [SerializeField] private SpriteRenderer spriteRenderer;
     [SerializeField] private Animator animator;
-    [SerializeField] private Collider2D collider;
+    [SerializeField] private Collider2D _collider;
+
+    [Header("Volumes")]
+    [SerializeField] private Volume volume;
+
+    [Header("Camera")]
+    [SerializeField] private Camera _camera;
+    [SerializeField] private Vector2 cameraBasePosition;
 
     [Header("Prefabs")]
     [SerializeField] private ParticleSystem swordEffectPrefab;
+    [SerializeField] private ParticleSystem hitEffectPrefab;
     [SerializeField] private SwordCollider swordEffectColliderPrefab;
-    [SerializeField] private GameObject hitEffectPrefab;
 
     [Header("Move Settings")]
     [SerializeField] private float moveSpeed;
@@ -33,6 +43,9 @@ public class PlayerMoveController : MonoBehaviour
     [SerializeField] private Vector2 defaultPosition;
     [SerializeField] private float healthInterval;
 
+    [Header("Sprite")]
+    [SerializeField] private Sprite onHitImage;
+
     private Stack<Image> healths;
 
     private bool isJumping = false;
@@ -40,6 +53,9 @@ public class PlayerMoveController : MonoBehaviour
     private float defaultGravityScale;
 
     private bool isAttacking = false;
+
+    private Coroutine fadeColorCoroutine;
+    private Coroutine timeCoroutine;
 
     private void Awake()
     {
@@ -64,6 +80,8 @@ public class PlayerMoveController : MonoBehaviour
 
     private void HandleInput()
     {
+        if (Time.timeScale == 0) return;
+
         float horizontalRate = Input.GetAxisRaw("Horizontal");
         HandleMove(horizontalRate);
 
@@ -75,6 +93,7 @@ public class PlayerMoveController : MonoBehaviour
 
     private void OnAttack()
     {
+        if (Time.timeScale == 0) return;
         if (isAttacking) return;
 
         isAttacking = true;
@@ -96,9 +115,16 @@ public class PlayerMoveController : MonoBehaviour
         }
 
         animator.SetTrigger("OnAttack");
+        StartCoroutine(EndAttackWithDelay());
 
         rigid.linearVelocityY = 0;
         rigid.gravityScale = 0;
+    }
+
+    private IEnumerator EndAttackWithDelay()
+    {
+        yield return new WaitForSeconds(0.3f);
+        OnEndAttack();
     }
 
     private void OnEndAttack()
@@ -109,6 +135,7 @@ public class PlayerMoveController : MonoBehaviour
 
     private void HandleMove(float horizontalRate)
     {
+        if (Time.timeScale == 0) return;
         if (isAttacking) horizontalRate = 0;
 
         if (horizontalRate > 0) spriteRenderer.flipX = true;
@@ -123,6 +150,7 @@ public class PlayerMoveController : MonoBehaviour
     private void OnJumpKeyDown()
     {
         if (isJumping) return;
+        if (Time.timeScale == 0) return;
 
         isJumping = true;
 
@@ -178,17 +206,64 @@ public class PlayerMoveController : MonoBehaviour
 
     private void OnHit()
     {
-        if (healths.Count <= 0)
+        if (healths.Count <= 1)
         {
             OnDeath();
             return;
         }
 
-        Destroy(healths.Pop());
+        healths.Pop().transform.DOScale(Vector3.zero, 0.5f).SetUpdate(true);
+
+        animator.SetTrigger("OnHit");
+        Instantiate(hitEffectPrefab).transform.position = transform.position;
+
+        StartCoroutine(StopTime(0.25f));
+    }
+
+    private IEnumerator StopTime(float time)
+    {
+        ColorAdjustments color;
+        volume.profile.TryGet(out color);
+
+        _camera.transform.DOKill();
+        _camera.transform.localPosition = new Vector3(cameraBasePosition.x, cameraBasePosition.y, _camera.transform.position.z);
+        _camera.transform.DOShakePosition(
+            duration: 0.15f,
+            strength: new Vector3(0.5f, 0.5f, 0f),
+            vibrato: 50,
+            randomness: 90f,
+            snapping: false,
+            fadeOut: true
+        ).SetUpdate(true);
+
+        color.colorFilter.value = new Color(1, 0, 0);
+
+        Time.timeScale = 0f;
+
+        if(timeCoroutine != null) StopCoroutine(timeCoroutine);
+
+        yield return new WaitForSecondsRealtime(time);
+
+        color.colorFilter.value = new Color(1, 1, 1);
+
+        Time.timeScale = 1;
+    }
+
+    private IEnumerator FadeColor(Color color, ColorAdjustments colorAdjustments)
+    {
+        yield return new WaitForSecondsRealtime(0.01f);
+
+        color.g += 0.05f;
+        color.b += 0.05f;
+        
+        colorAdjustments.colorFilter.value = color;
+
+        if (color != Color.white) fadeColorCoroutine = StartCoroutine(FadeColor(color, colorAdjustments));
+        else fadeColorCoroutine = null;
     }
 
     private void OnDeath()
     {
-
+        SceneController.Instance.MoveDefeatScene();
     }
 }

@@ -18,6 +18,6 @@ public class DonDestroy_Canvas : MonoBehaviour
 
     private void Update()
     {
-        clearRoomNumberText.text = SceneController.Instance.ClearRoomNumber.ToString();
+        clearRoomNumberText.text = "Cleared Room : " + SceneController.Instance.ClearRoomNumber.ToString();
     }
 }

@@ -24,7 +24,7 @@ public class Naga_EnemyController : EnemyController
 
     protected override void OnAttack(Vector3 targetPosition)
     {
-        rigid.AddForce(new Vector3((targetPosition - transform.position).x, 0, 0).normalized * 500000);
+        rigid.AddForce(new Vector3((targetPosition - transform.position).x, 0, 0).normalized * 500);
         animator.SetTrigger("OnAttack");
 
         if ((targetPosition - transform.position).x > 0) spriteRenderer.flipX = true;

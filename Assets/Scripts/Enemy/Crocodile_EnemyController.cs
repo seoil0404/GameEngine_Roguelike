@@ -54,7 +54,7 @@ public class Crocodile_EnemyController : EnemyController
 
     private void OnAttack1(Vector3 targetPosition)
     {
-        rigid.AddForce(new Vector3((targetPosition - transform.position).x, 0, 0).normalized * 500000);
+        rigid.AddForce(new Vector3((targetPosition - transform.position).x, 0, 0).normalized * 500);
         animator.SetTrigger("OnAttack1");
 
         if ((targetPosition - transform.position).x > 0)
@@ -105,6 +105,12 @@ public class Crocodile_EnemyController : EnemyController
     protected override void OnUpdate()
     {
         HandleMove();
+    }
+
+    protected override void OnDeath()
+    {
+        Instantiate(deadEffect).transform.position = effectInstanceTransform.transform.position;
+        SceneController.Instance.ClearGame();
     }
 
     private void HandleMove()

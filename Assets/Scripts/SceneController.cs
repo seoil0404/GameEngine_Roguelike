@@ -12,7 +12,7 @@ public class SceneController : MonoBehaviour
     private void Awake()
     {
         if(Instance == null) Instance = this;
-        else Destroy(Instance);
+        else Destroy(Instance.gameObject);
 
         DontDestroyOnLoad(gameObject);
     }
@@ -43,6 +43,11 @@ public class SceneController : MonoBehaviour
     {
         clearRoomNumber = 0;
         SceneManager.LoadScene("StartScene");
-        Destroy(DonDestroy_Canvas.Instance);
+        Destroy(DonDestroy_Canvas.Instance.gameObject);
+    }
+
+    public void MoveDefeatScene()
+    {
+        SceneManager.LoadScene("DefeatScene");
     }
 }

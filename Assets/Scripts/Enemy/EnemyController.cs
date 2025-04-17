@@ -12,8 +12,8 @@ public abstract class EnemyController : MonoBehaviour
     [SerializeField] private int enemyHealth;
 
     [Header("Effect")]
-    [SerializeField] private ParticleSystem deadEffect;
-    [SerializeField] private Transform effectInstanceTransform;
+    [SerializeField] protected ParticleSystem deadEffect;
+    [SerializeField] protected Transform effectInstanceTransform;
 
     public Vector2 Position => effectInstanceTransform.position;
 
@@ -31,7 +31,7 @@ public abstract class EnemyController : MonoBehaviour
         }
     }
 
-    private void OnDeath()
+    protected virtual void OnDeath()
     {
         Instantiate(deadEffect).transform.position = effectInstanceTransform.transform.position;
         Destroy(gameObject);
